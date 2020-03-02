@@ -172,6 +172,7 @@
     }
     
     .highlight{
+        padding: 0 8%;
     }
     
     .highlight__pix{
@@ -180,11 +181,11 @@
     
     .highlight h1{
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     
     .highlight p{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
     
     .about-content{
