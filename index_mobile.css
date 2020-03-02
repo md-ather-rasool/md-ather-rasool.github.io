@@ -1,0 +1,242 @@
+@media(max-width:1000px){
+    
+    /* ---------- For use by JavaScript ---------- */
+    
+    .body__backdrop{
+    }
+    
+    .only-modal{
+        width: 100%;
+        top: 30%;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        padding :2rem 0;
+    }
+    
+    .only-modal p{
+        font-size:1.2rem;
+    }
+    
+    .only-modal__options{
+    }
+    
+    .only-modal__option--yes,
+    .only-modal__option--no{
+    }
+    
+    .only-modal__option--yes:hover,
+    .only-modal__option--yes:active,
+    .only-modal__option--no:hover,
+    .only-modal__option--no:active{
+    }
+
+
+    .nav__backdrop{
+        /* width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0, 0.3);
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 5; */
+    }
+    
+    
+    /* ---------- Main Content ---------- */
+    
+    .body__main{
+    }
+
+    .toggle-button{
+        display: block;
+        width: 3.2rem;
+        border:none;
+        background: transparent;
+        cursor: pointer;
+        padding-top:0; 
+        margin-left:0.5rem;
+    }
+    
+    .toggle-button:focus{
+        outline: none;
+    }
+    
+    .toggle-button__bar1{
+        /* display:none; */
+        width: 80%;
+        height: 0.2rem;
+        background: #005685;
+        display: block;
+        margin:0.45rem 0;
+    }
+
+    .toggle-button__bar2{
+        /* display:none; */
+        width: 100%;
+        height: 0.17rem;
+        background: #005685;
+        display: block;
+        margin:0.45rem 0;
+    }
+    
+    .toggle-button__bar3{
+        /* display:none; */
+        width: 80%;
+        height: 0.2rem;
+        background: #005685;
+        display: block;
+        margin:0.45rem 0;
+    }
+    
+    .close-svg{
+        margin-right:0.4rem;
+        cursor: pointer;
+    }
+
+    .mobile-nav{
+    }
+
+    .mobile-nav__item--projects,
+    .mobile-nav__item--resume{
+
+        display: flex;
+        flex-direction: column;
+
+        border-bottom: 1px solid #e7e7e7;
+        text-align:center;
+        padding:1rem 0;
+
+        text-decoration: none;
+        outline: none;
+        font-size: 1.05rem;
+        font-family: 'Oxygen';
+        font-weight: 400;
+        color: #005685;
+        cursor: pointer;
+    }
+
+    .mobile-nav__item--projects:hover,
+    .mobile-nav__item--projects:active,
+    .mobile-nav__item--resume:hover,
+    .mobile-nav__item--resume:active{
+        color:white;
+        background: #005685;
+    }
+
+    .mobile-nav__item--projects:focus,
+    .mobile-nav__item--resume:focus{
+        outline:none;
+    }
+
+    .mobile-nav__items{
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+
+    .mobile-nav__item{
+    }
+
+    .nav-bar{
+        height: 3.3rem;
+    }
+    
+    .nav-bar__brand{
+        text-align: center;
+    }
+    
+    .nav-bar__brand a{
+    }
+    
+    .nav-bar__list{
+        display:none;
+    }
+    
+    .nav-bar__list--items{
+    }
+    
+    .nav-bar__list--item {
+    }
+    
+    .nav-bar__list--item a{
+    }
+    
+    .nav-bar__list--item a:hover,
+    .nav-bar__list--item a:active{
+    }
+    
+    .nav-bar__shadow{
+    }
+
+    .mob-main-content{
+    }
+    
+    .highlight{
+    }
+    
+    .highlight__pix{
+        margin-top: 8%;
+    }
+    
+    .highlight h1{
+        text-align: center;
+    }
+    
+    .highlight p{
+    }
+    
+    .about-content{
+        margin: 1.2rem 0;
+        padding: 0 10%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-content__info h1,
+    .about-content__contact h1{
+        /* text-align:left; */
+    }
+
+    .about-content__info{
+        margin-bottom: 1.2rem;
+        padding-right: 0;
+    }
+
+    .about-content__info p{
+    }
+    
+    .about-content__seperator{
+        display:none;
+    }
+    
+    .about-content__contact{
+        padding-left: 0;
+        align-items: center;
+    }
+    
+    .about-content__contact--links{
+        
+    }
+
+    .about-content__contact a,
+    .about-content__contact p{
+    }
+    
+    .alpha-footer{
+    }
+
+}
+
+@media(max-width:350px){
+
+    .nav-bar__brand a{
+        font-size:1.7rem;
+    }
+}
+
+@media(max-width:315px){
+
+    .nav-bar__brand a{
+        font-size:1.21rem;
+    }
+}
