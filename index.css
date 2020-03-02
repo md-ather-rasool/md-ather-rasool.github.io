@@ -122,7 +122,7 @@ body{
 .nav-bar__brand a{
     text-decoration: none;
     outline: none;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: 'Oxygen';
     color: rgb(58, 22, 75);
 }
@@ -285,6 +285,7 @@ body{
     justify-content: center;
     background-color: #005685;
     font-family: 'Oxygen';
+    font-size: 0.9rem;
     padding: 0.9rem;
     color: white;
 }
